@@ -1,0 +1,108 @@
+---
+name: William Todd Bealmear
+last-updated: 2012-04-11
+contact:
+    - type: email
+      desc: todd.bealmear@gmail.com
+
+    - type: address
+      desc: "5080 Haven Place #302, Dublin, CA 94568"
+
+    - type: phone
+      desc: 9256396849
+
+    - type: web
+      desc: http://dd0t.com
+
+education:
+    - type: High School
+      name: Monte Vista High School
+      location: Danville, CA
+      grad-date: June 2006
+      degree: Diploma
+      activities:
+          - Team Captain, Robotics Team
+          - Developer, iTeam
+          - Debate Team
+
+    - type: University
+      name: University of Arizona
+      location: Tucson, AZ
+      grad-date: December 2010
+      degree: Bachelor of Arts, Political Science
+      activities:
+          - Business Administration Minor
+          - Phi Kappa Psi Fraternity
+
+experience:
+    - title: Volunteer Community Manager
+      organization: Future US
+      period: October 2004 - October 2007
+      tasks:
+          - "Served as day-to-day community and operations manager for Future's PC Gamer brand forums and IRC channel."
+          - Developed and managed a community of over 20,000 users.
+          - Facilitated communication between PC Gamer editors and community.
+
+    - title: Human Resources Intern
+      organization: Fremont Bank
+      location: Fremont, CA
+      period: June 2007 - August 2007, December 2007 - January 2008
+      tasks:
+          - Gained valuable knowledge and experience in the efficient management of a Human Resource department and company human resources.
+
+    - title: Information Technology Intern
+      organization: Fremont Bank
+      location: Hayward, CA
+      period: May 2008 - August 2008, December 2008 - January 2009
+      tasks:
+          - Managed company desktop computing resources.
+          - Became proficient with various Microsoft and Citrix tools and suites.
+
+          - Manned company help desk.
+
+    - title: IS Project Management Intern
+      organization: Fremont Bank
+      location: Hayward, CA
+      period: May 2009 - August 2009, December 2009 - January 2010
+      tasks:
+          - "Assisted in complete overhaul of the company's core IT infrastructure."
+          - Became proficient in the administration of Cognos 7.x and 8.x BI reporting tools.
+          - Interacted with associates to determine requirements and risks within scope of overall project.
+          - Produced specification documents that defined key functionalities of the project.
+          - Determined company-wide roles for administrators, superusers, and end-users of Cognos software.
+          - Assisted in management of external team of consultants and developers.
+          - Participated in the Quality Assurance process prior to production.
+          - Reported to principal project manager and Director of Information Systems.
+
+    - title: Speeches Intern
+      organization: Project Vote Smart
+      location: Tucson, AZ
+      period: January 2010 - June 2010
+      tasks:
+        - "Read, categorized, and entered speeches, press releases, and statements from various public officials for Vote Smart's comprehensive political database."
+        - Provided on-site technical assistance.
+
+    - title: Data Analyst
+      organization: Fremont Bank
+      location: Fremont, CA
+      period: March 2011 - Present
+      tasks:
+          - Road-map and develop upgrades and changes to behavior and functionality of Commercial Lending Loan Origination System (LOS).
+          - Interface with executives and LOS stakeholders to revise and streamline unit policies and procedures.
+          - Develop external systems and tools to assist in LOS project and reporting duties.
+          - "Responsible for concentration reporting of Bank's Commercial Real Estate portfolio."
+          - "Responsible for stress testing Bank's Commercial Real Estate portfolio."
+          - Responsible for creating and maintaining documentation for CRE reporting and LOS project.
+
+extra-curricular:
+    - Eagle Scout, Boy Scouts of America - Awarded in 2004
+    - FIRST Robotics - Participated in FIRST robotics competitions between 2004 and 2006
+    - National Forensics League - Honor Degree
+    - Phi Kappa Psi Fraternity
+
+technical-skills:
+    - Proficient with Java and Java frameworks (Struts, Play, etc.), leading web technologies (HTML, PHP, SQL) including the LAMP stack, Python (including Django and Tornado), VBA, and the three major consumer operating systems (Windows, OS X, Linux).
+    - Familiarity with Ruby (this app was built with Sinatra), the Android SDK, various popular APIs (Facebook, SoundCloud, YouTube, Google), and MongoDB.
+    - Some experience with Javascript (Node.js, Backbone.js, jQuery) and various .Net languages.
+
+interests: [Technology, Music, Cars, Auto Racing, Current Events, International Affairs]

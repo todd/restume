@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>RESTume</title>
+  </head>
+  <body>
+    <h1>RESTume</h1>
+    <h2>About</h2>
+    <p>RESTume was built by <a href="http://dd0t.com">Todd Bealmear</a> to provide his resume as an API.</p>
+    <p>The resource list is below, but you can also check out the source on 
+      <a href="https://github.com/toddward/RESTume">GitHub</a>. A few notes on the source:
+      <ul>
+        <li>Written with Ruby on Sinatra.</li>
+        <li>No DataMapper - all resume data is saved in a YAML file. A database would have
+          been overkill for this project.</li>
+        <li>This is my first real go with Ruby, but Sinatra made developing this super easy.
+          I took me very little time to throw together with only a little previous Ruby experience.</li>
+      </ul>
+    </p>
+    <h2> The API</h2>
+    <p>All responses are JSON. There are no PUT or DELETE methods allowed on any of the resources.
+      A single resource allows POST - this is to send a message to me if you're interested in getting
+      in touch.</p>
+    <h2>Resources</h2>
+    <ul>
+      <li>
+        <b>Resource: /resume</b>
+        <ul><li>Description: Gives a high-level overview of the resume. Returns all data except education
+          and experience lists have been truncated - full details can be had at their respective resources.</li>
+        <li>Method: GET</li></ul>
+      </li>
+      <li>
+        <b>Resource: /resume/education</b>
+        <ul><li>Description: Returns education details from the resume.</li>
+        <li>Method: GET</li></ul>
+      </li>
+      <li>
+        <b>Resource: /resume/education/:id</b>
+        <ul><li>Description: Returns the details of an educational institution I attended specified by ':id.'</li>
+        <li>Method: GET</li></ul>
+      </li>
+      <li>
+        <b>Resource: /resume/experience</b>
+        <ul><li>Description: Returns job experience details from the resume.</li>
+        <li>Method: GET</li></ul>
+      </li>
+      <li>
+        <b>Resource: /resume/experience/:id</b>
+        <ul><li>Description: Returns the details of a work experience specified by ':id.'</li>
+        <li>Method: GET</li></ul>
+      </li>
+      <li>
+        <b>Resource: /resume/skills</b>
+        <ul><li>Description: Returns the details of my technical expertise.</li>
+        <li>Method: GET</li></ul>
+      </li>
+      <li>
+        <b>Resource: /resume/activities</b>
+        <ul><li>Description: Returns the details of my extra-curricular activities.</li>
+        <li>Method: GET</li></ul>
+      </li>
+      <li>
+        <b>Resource: /resume/interests</b>
+        <ul><li>Description: Returns my list of interests.</li>
+        <li>Method: GET</li></ul>
+      </li>
+      <li>
+        <b>Resource: /contact</b>
+        <ul><li>Description: Allows you to contact me through the API.</li>
+        <li>Method: POST</li>
+        <li>
+          Parameters (formatted as JSON):
+          <ul><li>name: Your name</li>
+          <li>email: Your email address</li>
+          <li>body: Your message</li></ul>
+        </li></ul>
+      </li>
+    </ul>
+  </body>
+</html>
