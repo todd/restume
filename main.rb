@@ -144,6 +144,14 @@ get '/resume/interests' do
   body(interests.to_json)
 end
 
+# Public: We don't want a 'Not Found' message if someone tries
+#         to access this resource with GET. Raise a 405.
+#
+# Returns: A 405 HTTP status.
+get '/contact' do
+  status 405
+end
+
 # Public: Send Todd an email if you're impressed by his resume
 #         and want to offer him a sweet gig.
 #
