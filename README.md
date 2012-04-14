@@ -51,3 +51,11 @@ A single resource allows POST - this is to send a message to me if you're intere
 		*	name: Your name
 		*	email: Your email address
 		*	body: Your message
+
+## Dependencies
+
+*	Developed/tested with Ruby 1.8.7 and Ruby 1.9.2
+	*	This is why Bundler includes the json gem even though it's part of the 1.9.x std-lib.
+*	Sinatra
+*	Rack
+*	rack/test

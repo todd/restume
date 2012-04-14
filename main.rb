@@ -1,9 +1,10 @@
 require 'rubygems'
+require 'bundler/setup'
 require 'resolv'
-require 'sinatra'
 require 'yaml'
-require 'json'
 require 'net/smtp'
+
+Bundler.require
 
 # Public: Display 'About' and API Docs
 #
