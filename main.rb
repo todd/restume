@@ -29,29 +29,29 @@ get '/resume' do
  
   # Build list basic schooling information
   for school in resume['education']
-    education << Hash['name', school['name'], 'grad-date', school['grad-date']]
+    education << {'name' => school['name'], 'grad-date' => school['grad-date']}
   end
 
   # Build list of basic job experience
   for job in resume['experience']
-    experience << Hash[
-      'title', job['title'], 
-      'organization', job['organization'], 
-      'period', job['period']
-    ]
+    experience << {
+      'title' => job['title'], 
+      'organization' => job['organization'], 
+      'period' => job['period']
+    }
   end
 
   # Build response
-  response = Hash[
-    'name', resume['name'],
-    'last-updated', resume['last-updated'],
-    'contact', resume['contact'],
-    'education', education,
-    'experience', experience,
-    'extra-curricular', resume['extra-curricular'],
-    'technical-skills', resume['technical-skills'],
-    'interests', resume['interests']
-  ]
+  response = {
+    'name' => resume['name'],
+    'last-updated' => resume['last-updated'],
+    'contact' => resume['contact'],
+    'education' => education,
+    'experience' => experience,
+    'extra-curricular' => resume['extra-curricular'],
+    'technical-skills' => resume['technical-skills'],
+    'interests' => resume['interests']
+  }
 
   # Send response
   status 200
