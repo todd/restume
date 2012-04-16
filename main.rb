@@ -24,8 +24,8 @@ get '/resume' do
   # We only want to return high-level information
   # about experience and education - detail can be seen
   # in education and experience resources
-  education = Array.new
-  experience = Array.new
+  education = []
+  experience = []
  
   # Build list basic schooling information
   for school in resume['education']

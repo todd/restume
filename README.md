@@ -4,6 +4,8 @@
 
 RESTume was built by [Todd Bealmear](http://dd0t.com) to provide his resume as an API.
 
+You can see it in action at [resume.dd0t.com](http://resume.dd0t.com).
+
 The resource list is below, but you can also check out the source on [GitHub](https://github.com/toddward/RESTume). 
 A few notes on the source:
 
@@ -59,3 +61,4 @@ A single resource allows POST - this is to send a message to me if you're intere
 *	Sinatra
 *	Rack
 *	rack/test
+*	Bundler (if you want to easily install these dependencies)
