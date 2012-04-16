@@ -6,7 +6,7 @@ RESTume was built by [Todd Bealmear](http://dd0t.com) to provide his resume as a
 
 You can see it in action at [resume.dd0t.com](http://resume.dd0t.com).
 
-The resource list is below, but you can also check out the source on [GitHub](https://github.com/toddward/RESTume). 
+The resource list is below, but you can also check out the source in this repo.
 A few notes on the source:
 
 *	Written with Ruby on Sinatra.
